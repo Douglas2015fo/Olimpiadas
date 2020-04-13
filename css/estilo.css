@@ -24,10 +24,29 @@ td, th {
 }
 
 
-/* Estilos aplicados a larguras até 480 pixels */
+@media (max-width: 850px) {
+    div {
+        width:49%;
+        padding-top: 20px;
+    }
 
-@media screen and (max-width: 480px) {
-   body {
-          background-color: cyan;
+    #img_noticia {
+        width: 256px;
+        height: 212px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+
+    body {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #img_olimpiadas {
+        width: 128px;
+        height: 86px;
     }
 }
