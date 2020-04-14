@@ -10,12 +10,12 @@
 table {
     background-color: white;
     border-collapse: initial;
-    margin: 100px;
+    margin: 25px;
     width: 80%;
 }
 td, th {
-    border-bottom: 2px solid gray;
-    font-size: 20px;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
 }
 
 .Titulo {
@@ -23,30 +23,9 @@ td, th {
     font-size: 50px;
 }
 
-
-@media (max-width: 850px) {
-    div {
-        width:49%;
-        padding-top: 20px;
-    }
-
-    #img_noticia {
-        width: 256px;
-        height: 212px;
-    }
-}
-
-
-@media (max-width: 600px) {
-
-
-    body {
-        width: 100%;
-        padding-top: 20px;
-    }
-
-    #img_olimpiadas {
-        width: 128px;
-        height: 86px;
-    }
-}
+#footer {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-left: auto;
+  }
